@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/mrJmek/beautified_rails_app.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
+[![Docker Pulls](https://img.shields.io/badge/gem-0.1.5-orange.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
+[![Build Status](https://travis-ci.org/mrJmek/simple_js_wysiwyg.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
 # SimpleJsWysiwyg
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_js_wysiwyg`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -27,6 +30,9 @@ Require JavaScript to app/assets/javascripts/applications.js
 Require style to app/assets/stylesheets/applications.css.scss
     @import "simple_js_wysiwyg";
 
+Add to `config/initializers/assets.rb` and restart your server
+    Rails.application.config.assets.precompile += %w( simple_js_wysiwyg/drag-and-drop-uploader.js )
+
 Add Google font to the app/views/layouts/application.html
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
 
@@ -38,7 +44,7 @@ Now You can use text editor by pasting this form to your page:
       </div>
     </form>
 
-Add JavScript at the end of the form if you would like to use Drag and Drop option for pictures    
+Add JavScript at the end of the form if you would like to use Drag and Drop option for pictures
     <%= javascript_include_tag 'simple_js_wysiwyg/drag-and-drop-uploader', 'data-turbolinks-track' => true %>
 
 
