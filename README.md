@@ -22,7 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    //= require simple_js_wysiwyg/script
+
+    @import "simple_js_wysiwyg/style"
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+
+
+    <form id="textForm">
+        <h2>teamvoy stylized JS wysiwyg text editor</h2>
+        <div id="textBox" contenteditable="true" draggable="true">
+        </div>
+      </form>
+      <script type="text/javascript" src="javascripts/simple_js_wysiwyg/drag-and-drop-uploader.js"></script>
+
 
 ## Development
 
@@ -38,4 +51,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
