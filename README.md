@@ -21,20 +21,25 @@ Or install it yourself as:
     $ gem install simple_js_wysiwyg
 
 ## Usage
+Require JavaScript to app/assets/javascripts/applications.js
+    //= require simple_js_wysiwyg
 
-    //= require simple_js_wysiwyg/script
+Require style to app/assets/stylesheets/applications.css.scss
+    @import "simple_js_wysiwyg";
 
-    @import "simple_js_wysiwyg/style"
-
+Add Google font to the app/views/layouts/application.html
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
 
-
+Now You can use text editor by pasting this form to your page:
     <form id="textForm">
-        <h2>teamvoy stylized JS wysiwyg text editor</h2>
-        <div id="textBox" contenteditable="true" draggable="true">
-        </div>
-      </form>
-      <script type="text/javascript" src="javascripts/simple_js_wysiwyg/drag-and-drop-uploader.js"></script>
+      <h2>teamvoy stylized JS wysiwyg text editor</h2>
+
+      <div id="textBox" contenteditable="true" draggable="true">
+      </div>
+    </form>
+
+Add JavScript at the end of the form if you would like to use Drag and Drop option for pictures    
+    <%= javascript_include_tag 'simple_js_wysiwyg/drag-and-drop-uploader', 'data-turbolinks-track' => true %>
 
 
 ## Development
