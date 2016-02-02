@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/mrJmek/beautified_rails_app.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
-[![Docker Pulls](https://img.shields.io/badge/gem-0.1.1-orange.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
 [![Build Status](https://travis-ci.org/mrJmek/simple_js_wysiwyg.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
+[![Docker Pulls](https://img.shields.io/badge/gem-0.1.1-orange.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
+[![Docker Pulls](https://img.shields.io/badge/license-MIT%20License-blue.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
 # SimpleJsWysiwyg
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_js_wysiwyg`. To experiment with that code, run `bin/console` for an interactive prompt.
