@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/mrJmek/beautified_rails_app.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
-[![Docker Pulls](https://img.shields.io/badge/gem-0.1.5-orange.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
+[![Docker Pulls](https://img.shields.io/badge/gem-0.1.1-orange.svg?style=flat)](https://github.com/mrJmek/simple_js_wysiwyg)
 [![Build Status](https://travis-ci.org/mrJmek/simple_js_wysiwyg.svg?branch=master)](https://travis-ci.org/mrJmek/simple_js_wysiwyg)
 # SimpleJsWysiwyg
 
