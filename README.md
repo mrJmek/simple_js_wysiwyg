@@ -16,37 +16,44 @@ gem 'simple_js_wysiwyg'
 ```
 
 And then execute:
-
+```ruby
     $ bundle
-
+```
 Or install it yourself as:
-
+```ruby
     $ gem install simple_js_wysiwyg
-
+```
 ## Usage
 Require JavaScript to app/assets/javascripts/applications.js
+```ruby
     //= require simple_js_wysiwyg
-
+```
 Require style to app/assets/stylesheets/applications.css.scss
+```ruby
     @import "simple_js_wysiwyg";
-
+```
 Add to `config/initializers/assets.rb` and restart your server
+```ruby
     Rails.application.config.assets.precompile += %w( simple_js_wysiwyg/drag-and-drop-uploader.js )
-
+```
 Add Google font to the app/views/layouts/application.html
+```html
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+```
 
 Now You can use text editor by pasting this form to your page:
+```html
     <form id="textForm">
       <h2>teamvoy stylized JS wysiwyg text editor</h2>
 
       <div id="textBox" contenteditable="true" draggable="true">
       </div>
     </form>
-
+```
 Add JavScript at the end of the form if you would like to use Drag and Drop option for pictures
+```html
     <%= javascript_include_tag 'simple_js_wysiwyg/drag-and-drop-uploader', 'data-turbolinks-track' => true %>
-
+```
 
 ## Development
 
